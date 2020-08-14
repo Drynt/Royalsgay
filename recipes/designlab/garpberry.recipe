@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "fuscienceresource", "count" : 114 },
+    { "item" : "algaegreen", "count" : 4 },
+    { "item" : "neptuniumrod", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "garpberryseed",
+    "count" : 3
+  },
+  "groups" : [ "designlab2", "fruit","nouncrafting","norecycling" ]
+}

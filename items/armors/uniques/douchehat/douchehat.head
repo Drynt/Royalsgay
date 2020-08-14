@@ -1,0 +1,24 @@
+{
+  "itemName" : "douchehat",
+  "price" : 50,
+  "inventoryIcon" : "icons.png:head",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "legendary",
+  "description" : "Mark of the Edgelord
+^cyan;Immune^reset;: Common Sense, Charisma",
+  "shortdescription" : "Douche Hat",
+  "category" : "headarmour",
+  "tooltipKind" : "armor",
+
+  "maleFrames" : "head.png",
+  "femaleFrames" : "head.png",
+  "mask" : "mask.png",
+  "statusEffects" : [
+    {
+      "stat" : "baseMultiplier",
+      "amount" : 0.8
+    }
+  ]
+
+}

@@ -1,0 +1,24 @@
+{
+  "itemName" : "crewcontract_sciencegas",
+  "tooltipKind": "codex",
+  "price" : 0,
+  "level" : 1,
+  "maxStack" : 1,
+  "rarity" : "uncommon",
+  "category" : "mysteriousReward",
+  "description" : "Hires a toxin specialist to provide ^pink;Gas Immunity^reset;, and increase your ship's fuel efficiency by 10%.",
+  "shortdescription" : "Toxin Specialist Contract",
+  "twoHanded" : true,
+
+  "inventoryIcon" : "crewcontract.png",
+  "animation" : "crewcontract.animation",
+  "animationCustom" : {},
+  "scripts" : ["crewcontract.lua"],
+
+  "fireTime" : 2.0,
+  "fireOffset" : [1.0, 0.0],
+
+  "crewtype" : {
+    "crewname" : "crewmemberhobo"
+  }
+}

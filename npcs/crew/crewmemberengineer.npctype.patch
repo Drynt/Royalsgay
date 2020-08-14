@@ -1,0 +1,11 @@
+[
+  {
+    "op": "add",
+    "path": "/scriptConfig/crew/role/benefits/0",
+    "value": {
+      "type": "ShipUpgradeBenefit",
+      "property": "fuelEfficiency",
+      "value": 0.2
+    }
+  }
+]

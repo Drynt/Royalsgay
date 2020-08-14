@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "advancealloy", "count" : 6 },
+    { "item" : "nuclearcore", "count" : 1 },
+    { "item" : "uraniumrod", "count" : 6 }
+  ],
+  "output" : {
+    "item" : "isn_fissionreactornew",
+    "count" : 1
+  },
+  "groups" : [ "powerstation2", "power", "all" ]
+}

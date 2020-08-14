@@ -1,0 +1,14 @@
+{
+  "itemName" : "marbleblock",
+  "category" : "block",
+  "price" : 5,
+  "rarity" : "Common",
+  "inventoryIcon" : "marbleblock.png",
+  "description" : "Bricks made from smooth marble.",
+  "shortdescription" : "Marble Bricks",
+  "glitchDescription" : "Statement. Fine marble bricks.",
+  "floranDescription" : "Marble bricksss.",
+
+  "materialId" : 22002,
+  "learnBlueprintsOnPickup" : [ "marbleblock" ]
+}

@@ -1,0 +1,22 @@
+{
+  "itemName" : "statustablet",
+  "shortdescription" : "Personal Tricorder",
+  "description" : "^cyan;Primary^reset;: Check Status
+^yellow;Secondary^reset;: Quest Menu
+^green;Shift^reset;: Configure MM",
+  "price" : 44,
+  "maxStack" : 1,
+  "rarity" : "essential",
+  "category" : "Console",
+  "twoHanded" : true,
+  "itemTags" : ["tool"],
+  "inventoryIcon" : "statustablet.png",
+  "animation" : "statustablet.animation",
+  "scripts" : ["statustablet.lua"],
+  "learnBlueprintsOnPickup" : [ 
+    "racialspacestationconsole_military",
+    "racialspacestationconsole_medical",
+    "racialspacestationconsole_trading",
+    "racialspacestationconsole_scientific" 
+  ]
+}

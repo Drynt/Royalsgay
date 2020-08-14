@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "ff_bambooshoot", "count" : 3 },
+    { "item" : "fuscienceresource", "count" : 74 }
+  ],
+  "output" : {
+    "item" : "bambooseed",
+    "count" : 3
+  },
+  "groups" : [ "designlab1", "tree","nouncrafting","norecycling" ]
+}

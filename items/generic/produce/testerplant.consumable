@@ -1,0 +1,13 @@
+{
+  "itemName" : "testerplant",
+  "inventoryIcon" : "aquapod.png",
+  "category" : "food",
+  "rarity" : "Common",
+  "price" : 5,
+  
+  "tooltipKind": "food",
+  "description" : "tester.",
+  "shortdescription" : "piss off",
+  
+  "effects" : [ [ "weak_fire" ] ]
+}

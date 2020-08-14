@@ -1,0 +1,37 @@
+{
+  "itemName" : "elduukhartier7broadsword",
+  "level" : 6,
+  "price" : 1245,
+  "maxStack" : 1,
+  "rarity" : "legendary",
+  "description" : "This greatsword was designed more for vanity than practicality.",
+  "shortdescription" : "Fused Emera Broadsword",
+  "tooltipKind" : "sword",
+  "category" : "broadsword",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","broadsword","crystal", "upgradeableWeapon"],
+  
+  "inventoryIcon" : "elduukhartier7broadsword.png",
+  
+  "animation" : "/items/active/weapons/melee/broadsword/combobroadsword.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "elduukhartier7broadsword.png"
+  },
+  "animationCustom" : { },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "broadswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 0.83,
+    "baseDps" : 11.5
+  },
+
+  "altAbilityType" : "superspinslash",
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+  
+}

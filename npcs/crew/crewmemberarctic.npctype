@@ -1,0 +1,104 @@
+{
+  "type" : "crewmemberarctic",
+  "baseType" : "crewmember",
+  //"disableWornArmor" : false,
+  "innateStatusEffects" : [ { "stat" : "protection", "amount": -10 }, {"stat" : "powerMultiplier", "amount" : -0.25} ], 
+  "scriptConfig" : {
+    "behaviorConfig" : {
+      "emptyHands" : false
+    },
+
+    "crew" : {
+      "defaultUniform" : {
+        "head" : "sciencefuheadnpc",
+        "chest" : "sciencefuchestnpc",
+        "legs" : "sciencefulegsnpc"
+        },
+
+      "role" : {
+        "benefits" : [
+          {
+            "type" : "ShipUpgradeBenefit",
+            "property" : "fuelEfficiency",
+            "value" : 0.08
+          },        
+          {
+            // Ephemeral effects gained upon leaving the ship
+            "type" : "EphemeralEffect",
+            "effect" : "ffextremecoldimmunityicon",
+            "duration" : 300
+          },         
+          {
+            "type" : "Regeneration",
+            "value" : 1
+          }
+        ],
+        "type" : "chemist",
+        "name" : "Arctic Explorer",
+        "field" : "Arctic Explorer",
+        "uniformColorIndex" : 4
+      }
+    },
+
+    "dialog" : {
+      "crewmember" : {
+        "roleDescription" : {
+          "default" : {
+            "default" : [
+              "I'll give you a 5% fuel efficiency boost whenever we're on the ship!"
+            ]
+          },
+          "floran" : {
+            "default" : [
+              "Floran will give ship fuel boostsss when we are on ship!"
+            ]
+          },
+          "glitch" : {
+            "default" : [
+              "Friendly. I'll give you a 5% fuel efficiency boost whenever we're on the ship!"
+            ]
+          }
+        },
+        "combatBenefit" : {
+          "default" : {
+            "default" : [
+              "Here, let me warm you up!",
+              "Let me help you out!",
+              "Looks like you could use my assistance!",
+              "I can help!"
+            ]
+          },
+          "floran" : {
+            "default" : [
+              "Floran hasss things to help you out!",
+              "Floran can help out!",
+              "Floran hasss things to help!"
+            ]
+          },
+          "glitch" : {
+            "default" : [
+              "Eager. I can help you out!",
+              "Excited. Perhaps you could do with a power-up!",
+              "Intrigued. I wonder if this will help you?",
+              "Helpful. Take this, it will help!"
+            ]
+          }
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "default" : [
+      [0, [
+          {
+            "primary" : [ "fucarbonhammer" ],
+            "sheathedprimary" : [ "frostcannonarm" ],
+			"head" :  [{ "name" : "sciencefuheadnpc", "count" :1, "parameters" : { "colorIndex" : 4 } } ],
+			"chest" : [ { "name" : "sciencefuchestnpc", "count" :1, "parameters" : { "colorIndex" : 4 } } ],
+            "legs" : [ { "name" : "sciencefulegsnpc", "count" :1, "parameters" : { "colorIndex" : 4 } } ]
+          }
+        ] ]
+    ]
+  }
+}

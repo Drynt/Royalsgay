@@ -1,0 +1,37 @@
+{
+  "itemName" : "zerchesiumsword",
+  "price" : 150,
+  "level" : 4,
+  "maxStack" : 1,
+  "rarity" : "uncommon",
+  "description" : "Finely honed zerchesium steel.",
+  "shortdescription" : "Zerchesium Blade",
+  "tooltipKind" : "sword2",
+  "category" : "shortsword",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","melee","shortsword","zerchesium", "upgradeableWeapon"],
+
+  "inventoryIcon" : "zerchesiumsword.png",
+  "collectablesOnPickup" : { "fu_weaponshortsword" : "zerchesiumsword" },
+  "animation" : "comboshortsword.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "zerchesiumsword.png"
+  },
+  
+  "animationCustom" : { },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "ice",
+
+  "primaryAbilityType" : "shortswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 0.53,
+    "baseDps" : 7.2
+  },
+  "critChance" : 3,
+  "critBonus" : 2,   
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+  
+}

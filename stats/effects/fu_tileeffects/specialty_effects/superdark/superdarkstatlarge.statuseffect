@@ -1,0 +1,17 @@
+{
+  "name" : "superdarkstatlarge",
+  "blockingStat" : "darknessImmunity",
+  
+  "effectConfig" : {"darklevel":1,"darkpriority":1},
+  
+  "defaultDuration" : 60,
+
+  "scripts" : [
+    "superdarkstat.lua"
+  ],
+
+  "animationConfig" : "superdarkstatlarge.animation",
+
+  "label" : "Unbreachable Darkness",
+  "icon" : "/interface/statuses/shadow.png"
+}

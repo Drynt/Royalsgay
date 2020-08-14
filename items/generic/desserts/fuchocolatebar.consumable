@@ -1,0 +1,15 @@
+{
+  "itemName" : "fuchocolatebar",
+  "rarity" : "uncommon",
+  "category" : "food",
+  "price" : 130,
+  "inventoryIcon" : "fuchocolatebar.png",
+  "description" : "This tastes !@#!$!%! amazing!",
+  "shortdescription" : "Better Chocolate",
+  "maxStack" : 1000,
+  "foodValue" : 15,
+  "tooltipKind" : "food",
+  "rottingMultiplier" : 20,
+  "builder": "/items/buildscripts/buildfood.lua",
+  "blockingEffects" : [ "wellfed" ]
+}

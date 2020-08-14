@@ -1,0 +1,51 @@
+{
+  "itemName" : "fumegahoneyhammer",
+  "price" : 900,
+  "maxStack" : 1,
+  "rarity" : "legendary",
+  "description" : "Truly solid amber condensed into a mallet.",
+  "shortdescription" : "Queen Hammer",
+  "tooltipKind" : "hammer",
+  "category" : "hammer",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","hammer", "upgradeableWeapon", "bees"],
+  "level" : 6,
+  "inventoryIcon" : "megahammer.png",
+  "collectablesOnPickup" : { "fu_weaponhammer" : "fumegahoneyhammer" },
+  "animation" : "hammerglow.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "megahammer.png",
+    "bladefullbright" : "megahammerfullbright.png"
+  },
+  "animationCustom" : {
+    "animatedParts" : { "parts" : { "swoosh" : { "properties" : {
+      "offset" : [-1.25, 1.5]
+    }}}},
+    "sounds" : {
+      "fire" : [ "/sfx/melee/swing_hammer.ogg" ]
+    }
+  },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "poison",
+
+  "primaryAbilityType" : "hammersmash",
+  "primaryAbility" : {
+    "fireTime" : 0.92,
+    "baseDps" : 12.5,
+    "damageConfig" : {
+      "damageSourceKind" : "poisonhammer"
+    }
+  },
+
+  "altAbilityType" : "elementalpillar",
+  "altAbility" : { },
+
+  "critChance" : 6,
+  "critBonus" : 1,
+  "builder" : "/items/buildscripts/buildunrandweapon.lua",
+  
+  "stunChance" : 9
+}

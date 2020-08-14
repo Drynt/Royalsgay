@@ -1,0 +1,26 @@
+{
+  "itemName" : "humanartifactaugment",
+  "price" : 5000,
+  "rarity" : "essential",
+  "category" : "eppAugment",
+  "inventoryIcon" : "humanartifacticon.png",
+  "description" : "Damage x^green;1.1^reset;
+Energy x^green;1.2^reset;
++^green;20^reset;% Cosmic Resist",
+  "shortdescription" : "^cyan;Broken Master Manipulator^reset;",
+  "tooltipKind" : "eppaugment",
+  "augment" : {
+    "type" : "back",
+    "name" : "humanartifactaugment",
+    "displayName" : "Master Manipulator",
+    "displayIcon" : "/items/augments/quest/humanartifacticon.png",
+    "effects" : [ "humanartifact" ]
+  },
+
+  "radioMessagesOnPickup" : [ "pickupaugment" ],
+  
+  "scripts" : [ "/scripts/augments/augment.lua" ],
+
+ "learnBlueprintsOnPickup" : [ "humanartifactaugment","fumastermanipulator" ],   
+ "pickupQuestTemplates" : [ "mastermanipulator" ]
+}

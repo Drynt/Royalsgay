@@ -1,0 +1,76 @@
+{
+  "objectName" : "fu_quantumgenerator",
+  "rarity" : "legendary",
+    "colonyTags" : [ "science" ],
+  "category" : "wire",
+  "objectType" : "container",
+  "price" : 2500,
+  "description" : "Unmatched clean energy up to 128W. Fuel type will decide power output. ^blue;Left Input^reset;: Power Switch",
+  "shortdescription" : "^cyan;Quantum Reactor^white;",
+  "race" : "generic",
+  "printable" : false,
+
+  "inventoryIcon" : "fu_quantumgeneratoricon.png",
+  "orientations" : [
+    {
+      "dualImage" : "fu_quantumgenerator_base.png",
+      "imagePosition" : [0, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "animation" : "fu_quantumgenerator.animation",
+  "animationParts" : {
+    "screen" : "fu_quantumgenerator_screen.png",
+    "fans" : "fu_quantumgenerator_fans.png",
+    "base" : "fu_quantumgenerator_base.png"
+  },
+  "animationPosition" : [0, 0],
+  "soundEffect" : "/objects/power/fu_quantumgenerator/fu_quantumgenerator.ogg",
+  
+  "slotCount" : 1,
+  "uiConfig" : "/objects/power/fu_quantumgenerator/fu_quantumgenerator.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+  
+  "scripts" : [ "/scripts/fupower.lua","fu_quantumgenerator.lua" ],
+  "scriptDelta" : 60,
+  
+  "inputNodes" : [ [2, 4],[0, 4] ],
+  "outputNodes" : [ [2, 2] ],
+  
+  "powertype" : "output",
+  "acceptablefuel" : {
+    "biofuelcannister" : 30,
+    "biofuelcannisteradv" : 40,
+    "uraniumrod" : 45,
+    "energiflower" : 50,
+    "plutoniumrod" : 50,  
+    "helium3gasliquid" : 55,    
+    "vialproto" : 60,
+    "neptuniumrod" : 60,
+    "enricheduranium" : 65,
+    "energywood" : 70,
+    "thoriumrod" : 70,
+    "fu_hydrogenmetallic" : 75,
+    "biofuelcannistermax" : 75,
+    "enrichedplutonium" : 80,
+    "liquidelderfluid" : 85,      
+    "solariumstar" : 90, 
+    "deuterium" : 95,
+    "tritium" : 100,    
+    "ultronium" : 105,
+    "liquidmetallichydrogen" : 110,
+    "liquiddeuterium" : 120,
+    "schrodingerscat" : 150
+  },
+  "heat" : [
+    {"minheat" : 70,"animator" : {"screen" : "slow","fans" : "slow"},"sound" : true,"power" : 20,"light" : [126,206,255]},
+    {"minheat" : 50,"animator" : {"screen" : "slow","fans" : "slow"},"sound" : true,"power" : 16,"light" : [126,206,255]},
+    {"minheat" : 30,"animator" : {"screen" : "slow","fans" : "slow"},"sound" : true,"power" : 12,"light" : [126,206,255]},
+    {"minheat" : 20,"animator" : {"screen" : "slow","fans" : "slow"},"sound" : true,"power" : 9,"light" : [126,206,255]},
+    {"minheat" : 5,"animator" : {"screen" : "slow","fans" : "slow"},"sound" : true,"power" : 5,"light" : [126,206,255]},
+    {"minheat" : 0,"animator" : {"screen" : "off","fans" : "off"},"sound" : false,"power" : 0,"light" : [0,0,0]}
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "input" : [
+   { "item" : "carbonplate", "count" : 6 },
+   { "item" : "enricheduranium", "count" : 4 },
+   { "item" : "zerchesiumbar", "count" : 3 }
+  ],
+  "output" : {
+    "item" : "chargesmg",
+    "count" : 1
+  },
+  "groups" : [ "armory3", "ranged", "all" ]
+}

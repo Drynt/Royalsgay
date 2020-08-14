@@ -1,0 +1,24 @@
+[
+  {
+    "op": "add",
+    "path": "/crewModifier",
+    "value": 20
+  },
+
+  {"op" : "add", 
+  "path" : "/scriptConfig/crew/uniformSlots/-",
+  "value" : "back"
+  },
+  {"op" : "add", 
+  "path" : "/scriptConfig/crew/uniformSlots/-",
+  "value" : "backCosmetic"
+  },  
+  {"op" : "add", 
+  "path" : "/scriptConfig/crew/uniformSlots/-",
+  "value" : "head"
+  },
+  {"op" : "add", 
+  "path" : "/scriptConfig/crew/uniformSlots/-",
+  "value" : "headCosmetic"
+  }  
+]  

@@ -1,0 +1,12 @@
+{
+  "itemName" : "shadowgasliquid",
+  "rarity" : "rare",
+  "category" : "liquid",
+  "inventoryIcon" : "shadowgasliquid.png",
+  "shortdescription" : "Shadow Gas",
+  "description" : "A measure of chaotic matter, converted to gaseous form.",
+
+  "liquid" : "shadowgas",
+  "learnBlueprintsOnPickup" : [ "shadowimmunity1" ],
+  "collectablesOnPickup" : { "fu_liquid" : "shadowgasliquid" }
+}

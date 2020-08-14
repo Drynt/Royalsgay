@@ -1,0 +1,131 @@
+{
+  "type" : "crewmemberbiohazard",
+  "baseType" : "crewmember",
+  //"disableWornArmor" : false,
+  
+  "scriptConfig" : {
+    "behaviorConfig" : {
+      "emptyHands" : false
+    },
+
+    "crew" : {
+      "defaultUniform" : {
+        "head" : "hazmathead",
+        "chest" : "hazmatchest",
+        "legs" : "hazmatlegs",
+        "back" : "hazmatback"
+      },
+
+      "role" : {
+        "benefits" : [   
+          {
+            "type" : "ShipUpgradeBenefit",
+            "property" : "maxFuel",
+            "value" : 340
+          },         
+          {
+            // Ephemeral effects gained upon leaving the ship
+            "type" : "EphemeralEffect",
+            "effect" : "ffextremeradiationimmunityicon",
+            "duration" : 300
+          },         
+          {
+            "type" : "Regeneration",
+            "value" : 1
+          }
+        ],
+        "type" : "chemist",
+        "name" : "Radiologist",
+        "field" : "Radiologist",
+        "uniformColorIndex" : 6
+      }
+    },
+
+    "dialog" : {
+      "crewmember" : {
+        "roleDescription" : {
+          "default" : {
+            "default" : [
+              "I'll give you a radioactive fuel boost whenever we're on the ship!"
+            ]
+          },
+          "floran" : {
+            "default" : [
+              "Floran will give you boostsss when we are on ship!"
+            ]
+          },
+          "glitch" : {
+            "default" : [
+              "Friendly. I'll give you a radioactive fuel boost whenever we're on the ship!"
+            ]
+          }
+        },
+        "combatBenefit" : {
+          "default" : {
+            "default" : [
+              "Here's an anti-rad pill!",
+              "Let me help you out!",
+              "Looks like you could use my assistance!",
+              "I can help!"
+            ]
+          },
+          "floran" : {
+            "default" : [
+              "Floran hasss things to help you out!",
+              "Floran can help out!",
+              "Floran hasss things to help!"
+            ]
+          },
+          "glitch" : {
+            "default" : [
+              "Eager. I can help you out!",
+              "Excited. Perhaps you could do with an anti-rad pill!",
+              "Intrigued. I wonder if this will help you?",
+              "Helpful. Take this, it will help!"
+            ]
+          }
+        },
+		"fieldBenefit" : {
+          "default" : {
+            "default" : [
+              "Here's an anti-rad pill!",
+              "Let me help you out!",
+              "Looks like you could use my assistance!",
+              "I can help!"
+            ]
+          },
+          "floran" : {
+            "default" : [
+              "Floran hasss things to help you out!",
+              "Floran can help out!",
+              "Floran hasss things to help!"
+            ]
+          },
+          "glitch" : {
+            "default" : [
+              "Eager. I can help you out!",
+              "Excited. Perhaps you could do with an anti-rad pill!",
+              "Intrigued. I wonder if this will help you?",
+              "Helpful. Take this, it will help!"
+            ]
+          }
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "default" : [
+      [0, [
+          {
+            "primary" : [ "irradiumdagger" ],
+            "sheathedprimary" : [ "biopistol" ],
+			"head" :  [{ "name" : "hazmathead", "count" :1, "parameters" : { "colorIndex" : 6 } } ],
+			"chest" : [ { "name" : "hazmatchest", "count" :1, "parameters" : { "colorIndex" : 6 } } ],
+            "legs" : [ { "name" : "hazmatlegs", "count" :1, "parameters" : { "colorIndex" : 6 } } ],
+            "back" : [ { "name" : "hazmatback", "count" :1, "parameters" : { "colorIndex" : 6 } } ]         
+          }
+        ] ]
+    ]
+  }
+}

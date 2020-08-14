@@ -1,0 +1,24 @@
+{
+  "itemName": "petfood2",
+  "rarity": "common",
+  "price": 5,
+  "category": "petfood",
+  "inventoryIcon": "wartweedkibble.png",
+  "description": "For the ship pet in your life. ^red;Do Not Consume.\n^red;Poisoned ^gray;(^white;5s^gray;)^reset;",
+  "shortdescription": "Wartweed Kibble",
+  "maxStack": 1000,
+  "effects": [
+    [
+      {
+        "effect": "weakpoison",
+        "duration": 5
+      }
+    ]
+  ],
+  "blockingEffects": [
+    "weakpoison"
+  ],
+  "foodValue" : 20,
+  "builder": "/items/buildscripts/buildfood.lua",
+  "tooltipKind" : "food"
+}

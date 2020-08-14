@@ -1,0 +1,30 @@
+{
+  "objectName" : "thruster_human1",
+  "rarity" : "Common",
+  "description" : "A space craft thruster of Human design.",
+  "shortdescription" : "Large Thruster (Human)",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 10,
+  "printable" : true,
+
+  "inventoryIcon" : "thruster_human1.png",
+  "orientations" : [
+    {
+      "image": "thruster_human1.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+	  "flipImages": true,
+      "direction" : "left",
+      "anchors" : [ "left" ],
+      "spaceScan" : 0.1
+    },
+    {
+      "image": "thruster_human1.png:<color>.<frame>",
+      "imagePosition" : [-112, 0],
+	  "flipImages": false,
+      "direction" : "right",
+      "anchors" : [ "right" ],
+      "spaceScan" : 0.1
+    }    
+  ]
+}

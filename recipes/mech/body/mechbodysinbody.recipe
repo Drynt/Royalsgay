@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "zerchesiumbar", "count" : 20 },
+    { "item" : "salvagebody", "count" : 12 },
+    { "item" : "moonstonebar", "count" : 10 }
+  ],
+  "duration" : 5,
+  "output" : { "item" : "mechbodysinbody", "count" : 1 },
+  "groups" : [ "craftingmech", "mechbody" ]
+}

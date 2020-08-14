@@ -1,0 +1,17 @@
+{
+  "name" : "superdarkstatshoggoth",
+  "blockingStat" : "darknessImmunity",
+  
+  "effectConfig" : {"darklevel":2,"darkpriority":1},
+  
+  "defaultDuration" : 10,
+
+  "scripts" : [
+    "superdarkstat.lua"
+  ],
+
+  "animationConfig" : "superdarkstatmid.animation",
+
+  "label" : "Unbreachable Darkness",
+  "icon" : "/interface/statuses/shadow.png"
+}

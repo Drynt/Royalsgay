@@ -1,0 +1,14 @@
+{
+  "itemName" : "richplatform",
+  "category" : "platform",
+  "price" : 5,
+  // "twoHanded" : false,
+  "rarity" : "Common",
+  "inventoryIcon" : "richplatform.png",
+  "description" : "A nice wood platform.",
+  "shortdescription" : "Rich Wood Platform",
+  "glitchDescription" : "Statement. A wooden platform.",
+  "floranDescription" : "Platformsss.",
+
+  "materialId" : 22004
+}

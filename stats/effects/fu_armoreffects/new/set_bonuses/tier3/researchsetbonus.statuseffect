@@ -1,0 +1,27 @@
+{
+  "name" : "researchsetbonus",
+  "defaultDuration" : 3,
+
+  "effectConfig" : {
+    "armorBonuses" : {
+      "breathProtection" : {},
+      "gasImmunity" : {},
+      "poisonStatusImmunity": {}
+    },
+
+    "weaponBonuses" : [
+      {
+        "type" : "any",
+        "tags" : [ "magnorb" ],
+        "stats" : {
+          "powerMultiplier" : { "effectiveMultiplier" : 1.25 }
+        }
+      }
+    ]
+  },
+
+  "scripts" : [
+    "/stats/effects/fu_armoreffects/new/BasicSetBonus.lua"
+  ],
+  "scriptDelta" : 5
+}

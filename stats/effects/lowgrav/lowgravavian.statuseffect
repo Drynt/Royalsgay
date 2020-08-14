@@ -1,0 +1,13 @@
+{
+  "name" : "lowgravavian",
+  "effectConfig" : {
+    "gravityMod" : -0.6
+  },
+  "defaultDuration" : 15,
+
+  "scripts" : [
+    "lowgravavian.lua"
+  ],
+
+  "animationConfig" : "lowgravavian.animation"
+}

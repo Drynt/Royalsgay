@@ -1,0 +1,19 @@
+{
+  "id" : "ffguide4",
+  "title" : "Frackin'Universe Guide 4",
+  "description" : "How to Play",
+  "icon" : "ffbook.png",
+  "contentPages" : [
+
+   "There are no stupid questions - just stupid people."
+
+  ],
+  
+   "longContentPages" : [
+   ],
+    
+    "itemConfig" : {
+    "rarity" : "uncommon",
+    "price" : 0
+  }
+}

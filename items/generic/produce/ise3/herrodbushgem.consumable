@@ -1,0 +1,17 @@
+{
+	"itemName": "herrodbushgem",
+	"inventoryIcon": "herrodbushgem.png",
+	"category": "food",
+	"rarity": "Common",
+	"price": 5,
+
+	"tooltipKind": "food",
+	"description": "^yellow;^reset;^cyan;Immunity^reset;: Shadow: 3m",
+	"shortdescription": "Herrod Bush Gem",
+	"effects": [
+		[{
+			"effect": "shadowimmunity",
+			"duration": 180
+		}]
+	]
+}

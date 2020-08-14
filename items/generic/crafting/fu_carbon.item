@@ -1,0 +1,20 @@
+{
+  "itemName": "fu_carbon",
+  "rarity": "Common",
+  "price": 5,
+  "category": "craftingMaterial",
+  "inventoryIcon": "carbon.png",
+  "description": "There exist more chemical compounds involving Carbon than don't.",
+  "shortdescription": "Carbon",
+  "radioMessagesOnPickup": ["pickupCarbon"],
+  "foodValue": 25,
+  "learnBlueprintsOnPickup": [
+    "fu_carbon",
+    "carbonplate",
+    "fishboneheadbasher",
+    "goldenseascion",
+    "diamondblockmaterial",
+    "perfectorgan"
+  ],
+  "itemTags": ["reagent"]
+}
